@@ -1,4 +1,5 @@
-<img width="1246" height="600" alt="image" src="https://github.com/user-attachments/assets/6e1bf1c7-5f33-4635-b26a-4de466314049" />
+<img width="1600" height="788" alt="image" src="https://github.com/user-attachments/assets/04f4be1b-919c-457d-b5c5-db2c17c389e0" />
+
 
 
 ## AWS IDP | Internal Developer Platform
