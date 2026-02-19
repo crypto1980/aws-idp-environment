@@ -1,7 +1,7 @@
 <img width="1246" height="600" alt="image" src="https://github.com/user-attachments/assets/6e1bf1c7-5f33-4635-b26a-4de466314049" />
 
 
-## AWS Blueprint | Infrastructure & LLM Application
+## AWS IDP | Internal Developer Platform
 A reference blueprint for end-to-end automation of infrastructure and AI application deployment using GitLab, Terraform, AWS, Kubernetes (kind), and an LLM-based RAG stack.
 Designed primarily for local development, rapid prototyping, and demo environments, this model ensures fast iteration, reproducibility, and a seamless developer experience. 🐳🤖
 
