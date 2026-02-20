@@ -72,7 +72,7 @@ resource "aws_instance" "instance" {
     volume_type = "gp3"
   }
   tags = {
-    Name = "terraform-instance-provisioner"
+    Name = "terraform-provisioner"
   }
 
   provisioner "local-exec" {
