@@ -80,16 +80,8 @@ controller:
     type: "RollingUpdate"
     rollingUpdate:
       maxUnavailable: 1
-  hostPort:
-    enabled: true
-  terminationGracePeriodSeconds: 0
   service:
     type: "LoadBalancer"
-  watchIngressWithoutClass: true
-  publishService:
-    enabled: false
-  extraArgs:
-    publish-status-address: "localhost"
 EOT
   ]
   depends_on = [kind_cluster.default]
