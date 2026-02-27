@@ -30,6 +30,12 @@ variable "ingress_nginx_helm_version" {
   default     = "4.0.6"
 }
 
+variable "metallb_ip_range" {
+  description = "The kind version of kubernetes."
+  default     = "172.18.255.1-172.18.255.250"
+  type        = string
+}
+
 variable "ingress_nginx_namespace" {
   type        = string
   description = "The nginx ingress namespace (it will be created if needed)."
