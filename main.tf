@@ -108,7 +108,7 @@ resource "aws_instance" "instance" {
  
   provisioner "remote-exec" {
   inline = [
-    "cd /tmp/ && sudo terraform init && sudo terraform validate",
+    "cd /tmp/kind && sudo terraform init && sudo terraform validate",
     "sudo terraform apply -var-file=template.tfvars -auto-approve",
     "sudo sleep 5 && sudo terraform state list"
   ]
