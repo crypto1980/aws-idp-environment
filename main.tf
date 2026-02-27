@@ -102,26 +102,10 @@ resource "aws_instance" "instance" {
   }
 
   provisioner "file" {
-   source      = "./modules/kind/local.tf"
-   destination = "/tmp/local.tf"
+   source      = "./modules/kind"
+   destination = "/tmp/kind"
 }
-  provisioner "file" {
-   source      = "./modules/kind/resources.tf"
-   destination = "/tmp/resources.tf"
-}
-  provisioner "file" {
-   source      = "./modules/kind/providers.tf"
-   destination = "/tmp/providers.tf"
-}
-  provisioner "file" {
-   source      = "./modules/kind/variables.tf"
-   destination = "/tmp/variables.tf"
-}
-  provisioner "file" {
-   source      = "./modules/kind/template.tfvars"
-   destination = "/tmp/template.tfvars"
-}
-
+ 
   provisioner "remote-exec" {
   inline = [
     "cd /tmp/ && sudo terraform init && sudo terraform validate",
