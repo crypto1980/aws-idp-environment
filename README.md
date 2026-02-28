@@ -1,4 +1,4 @@
-<img width="1600" height="788" alt="image" src="https://github.com/user-attachments/assets/849986c8-55d8-4282-ad93-163b9b90e8c6" />
+<img width="1420" height="788" alt="image" src="https://github.com/user-attachments/assets/296dc4cd-8454-49b9-83f2-b28ddd25f352" />
 
 
 ## AWS Local | Internal Developer Platform
