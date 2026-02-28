@@ -1,8 +1,8 @@
 
 ###---Application---###
-resource "argocd_application" "grafana" {
+resource "argocd_application" "httpd" {
   metadata {
-    name      = "grafana"
+    name      = "httpd"
     namespace = "argocd"
   }
 
@@ -10,9 +10,9 @@ resource "argocd_application" "grafana" {
     project = "default"
 
     source {
-      repo_url        = "https://gitlab.com/infra/prod/global-charts/argo-toolkit.git"
+      repo_url        = "https://github.com/crypto1980/deployment.git"
       target_revision = "HEAD"
-      path            = "grafana"
+      path            = "httpd"
     }
 
     destination {
