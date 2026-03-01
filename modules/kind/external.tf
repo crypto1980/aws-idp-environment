@@ -7,6 +7,7 @@ resource "helm_release" "minio" {
   #version          = "5.1.6"  # check latest stable version
   create_namespace = true
 
+  depends_on = [helm_release.argocd]
   values = [
     yamlencode({
       mode         = "standalone"
