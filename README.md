@@ -1,5 +1,4 @@
-<img width="1420" height="788" alt="image" src="https://github.com/user-attachments/assets/296dc4cd-8454-49b9-83f2-b28ddd25f352" />
-
+<img width="1048" height="581" alt="image" src="https://github.com/user-attachments/assets/fe4aef9b-afcf-493e-bb16-fe036e70d330" />
 
 ## AWS Local | Internal Developer Platform
 A reference blueprint for end-to-end automation of infrastructure and AI application deployment using GitLab, Terraform, AWS, Kubernetes (kind), and an LLM-based RAG stack.
